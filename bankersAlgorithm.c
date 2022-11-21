@@ -5,7 +5,7 @@
 #include <stdio.h>
 
 int main(){
-    const int numProcesses, numResources;
+    int numProcesses, numResources;
     numProcesses = 5; // Number of processes
     numResources = 3; // Number of resources
 
@@ -74,7 +74,7 @@ int main(){
       if(flag==1)
     {
       printf("Following is the SAFE Sequence\n");
-      for (i = 0; i < numProcesses - 1; i++)
+      for (int i = 0; i < numProcesses - 1; i++)
         printf(" P%d ->", ans[i]);
       printf(" P%d", ans[numProcesses - 1]);
     }
