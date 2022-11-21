@@ -5,7 +5,7 @@
 #include <stdio.h>
 
 int main(){
-    int numProcesses, numResources;
+    const int numProcesses, numResources;
     numProcesses = 5; // Number of processes
     numResources = 3; // Number of resources
 
